@@ -18,6 +18,7 @@ alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
-alias myip='ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2'
-
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+alias proxy="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
+
