@@ -1,0 +1,11 @@
+*
+!.aliases
+!.bash_profile
+!.bashrc
+!.config
+!.gitignore
+!.oh-my-zsh
+!.SpaceVim
+!.vim
+!.zshrc
+

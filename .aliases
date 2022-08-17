@@ -1,0 +1,23 @@
+alias cat="bat"
+alias ping="prettyping"
+
+alias zd="cd ~/dev"
+alias zc="cd ~/dev/company"
+alias zo="cd ~/dev/os"
+
+alias l="exa"
+alias ll='exa -alh'
+alias ls="exa -a"
+
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+alias rm='rm -I --preserve-root'
+
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+alias myip='ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2'
+
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
