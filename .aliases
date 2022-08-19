@@ -2,7 +2,7 @@ alias cat="bat"
 alias ping="prettyping"
 
 alias zd="cd ~/dev"
-alias zc="cd ~/dev/work"
+alias zw="cd ~/dev/work"
 alias zo="cd ~/dev/os"
 
 alias l="exa"
@@ -13,10 +13,6 @@ alias rm="rm -iv"
 alias mv='mv -i'
 alias cp='cp -i'
 alias ln='ln -i'
-
-alias chown='chown --preserve-root'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
 
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
