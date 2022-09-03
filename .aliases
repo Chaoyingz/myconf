@@ -8,7 +8,7 @@ alias zo="cd ~/dev/os"
 alias l="exa"
 alias ll='exa -alh'
 alias ls="exa -a"
-alias rm="rm -iv"
+alias rm="trash"
 
 alias mv='mv -i'
 alias cp='cp -i'
@@ -18,3 +18,9 @@ alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
 alias proxy="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
 alias top="htop"
+
+alias pc="pre-commit"
+alias gl="git log --all --decorate --oneline --graph"
+
+alias ip="curl ip.sb"
+alias cpc="pbcopy <"
